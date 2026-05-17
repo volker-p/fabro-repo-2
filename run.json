@@ -197,10 +197,10 @@
     "kind": "running"
   },
   "status_updated_at": "2026-05-17T16:19:05.985034588Z",
-  "last_event_at": "2026-05-17T16:19:12.960304599Z",
+  "last_event_at": "2026-05-17T16:19:15.268579009Z",
   "pending_control": null,
   "checkpoint": {
-    "timestamp": "2026-05-17T16:19:12.974855682Z",
+    "timestamp": "2026-05-17T16:19:15.268314299Z",
     "current_node": "greet",
     "completed_nodes": [
       "start",
@@ -208,22 +208,22 @@
     ],
     "node_retries": {},
     "context_values": {
-      "internal.run_id": "01KRVBQV0BE3DE5D6CPFM1AD03",
-      "failure_class": "",
-      "response.greet": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks.\n\nHere's what's happening under the hood in this workflow:\n\n1. **Task Definition** — A goal was specified: *\"Say hello and demonstrate a basic Fabro workflow\"*\n2. **Agent Spawning** — Fabro spun up this AI agent (me!) to handle the task\n3. **Execution** — I'm now running inside a sandboxed environment with access to tools for reading/writing files, running shell commands, searching the web, and more\n4. **Completion** — Once I finish, Fabro captures the result and the workflow concludes\n\n### Environment Details\n- 📁 Working directory: `/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree`\n- 🌿 Git branch: `fabro/run/01KRVBQV0BE3DE5D6CPFM1AD03`\n- 🖥️ Platform: Linux\n- 📅 Date: May 17, 2026\n\nEverything is working as expected! The Fabro workflow engine is **up and running**. 🚀",
-      "internal.retry_count.start": 0,
-      "last_stage": "greet",
-      "internal.work_dir": "/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree",
-      "graph.rankdir": "LR",
-      "last_response": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks.",
+      "internal.retry_count.greet": 0,
       "internal.fidelity": "compact",
+      "last_stage": "greet",
+      "failure_class": "",
+      "current_node": "greet",
+      "graph.rankdir": "LR",
+      "failure_signature": "",
+      "internal.work_dir": "/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree",
+      "internal.retry_count.start": 0,
+      "last_response": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks.",
+      "internal.run_id": "01KRVBQV0BE3DE5D6CPFM1AD03",
+      "thread.start.current_node": "greet",
+      "outcome": "succeeded",
       "graph.goal": "Say hello and demonstrate a basic Fabro workflow",
       "internal.thread_id": "start",
-      "internal.retry_count.greet": 0,
-      "outcome": "succeeded",
-      "thread.start.current_node": "greet",
-      "current_node": "greet",
-      "failure_signature": "",
+      "response.greet": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks.\n\nHere's what's happening under the hood in this workflow:\n\n1. **Task Definition** — A goal was specified: *\"Say hello and demonstrate a basic Fabro workflow\"*\n2. **Agent Spawning** — Fabro spun up this AI agent (me!) to handle the task\n3. **Execution** — I'm now running inside a sandboxed environment with access to tools for reading/writing files, running shell commands, searching the web, and more\n4. **Completion** — Once I finish, Fabro captures the result and the workflow concludes\n\n### Environment Details\n- 📁 Working directory: `/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree`\n- 🌿 Git branch: `fabro/run/01KRVBQV0BE3DE5D6CPFM1AD03`\n- 🖥️ Platform: Linux\n- 📅 Date: May 17, 2026\n\nEverything is working as expected! The Fabro workflow engine is **up and running**. 🚀",
       "internal.node_visit_count": 1
     },
     "node_outcomes": {
@@ -265,9 +265,10 @@
       }
     },
     "next_node_id": "exit",
+    "git_commit_sha": "a6ce47db4ac57a4ee0af67b5eb780c288a1356e4",
     "node_visits": {
-      "start": 1,
-      "greet": 1
+      "greet": 1,
+      "start": 1
     }
   },
   "checkpoints": [
@@ -305,9 +306,114 @@
           "start": 1
         }
       }
+    ],
+    [
+      31,
+      {
+        "timestamp": "2026-05-17T16:19:15.268314299Z",
+        "current_node": "greet",
+        "completed_nodes": [
+          "start",
+          "greet"
+        ],
+        "node_retries": {},
+        "context_values": {
+          "internal.retry_count.greet": 0,
+          "internal.fidelity": "compact",
+          "last_stage": "greet",
+          "failure_class": "",
+          "current_node": "greet",
+          "graph.rankdir": "LR",
+          "failure_signature": "",
+          "internal.work_dir": "/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree",
+          "internal.retry_count.start": 0,
+          "last_response": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks.",
+          "internal.run_id": "01KRVBQV0BE3DE5D6CPFM1AD03",
+          "thread.start.current_node": "greet",
+          "outcome": "succeeded",
+          "graph.goal": "Say hello and demonstrate a basic Fabro workflow",
+          "internal.thread_id": "start",
+          "response.greet": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks.\n\nHere's what's happening under the hood in this workflow:\n\n1. **Task Definition** — A goal was specified: *\"Say hello and demonstrate a basic Fabro workflow\"*\n2. **Agent Spawning** — Fabro spun up this AI agent (me!) to handle the task\n3. **Execution** — I'm now running inside a sandboxed environment with access to tools for reading/writing files, running shell commands, searching the web, and more\n4. **Completion** — Once I finish, Fabro captures the result and the workflow concludes\n\n### Environment Details\n- 📁 Working directory: `/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree`\n- 🌿 Git branch: `fabro/run/01KRVBQV0BE3DE5D6CPFM1AD03`\n- 🖥️ Platform: Linux\n- 📅 Date: May 17, 2026\n\nEverything is working as expected! The Fabro workflow engine is **up and running**. 🚀",
+          "internal.node_visit_count": 1
+        },
+        "node_outcomes": {
+          "greet": {
+            "status": "succeeded",
+            "context_updates": {
+              "response.greet": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks.\n\nHere's what's happening under the hood in this workflow:\n\n1. **Task Definition** — A goal was specified: *\"Say hello and demonstrate a basic Fabro workflow\"*\n2. **Agent Spawning** — Fabro spun up this AI agent (me!) to handle the task\n3. **Execution** — I'm now running inside a sandboxed environment with access to tools for reading/writing files, running shell commands, searching the web, and more\n4. **Completion** — Once I finish, Fabro captures the result and the workflow concludes\n\n### Environment Details\n- 📁 Working directory: `/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree`\n- 🌿 Git branch: `fabro/run/01KRVBQV0BE3DE5D6CPFM1AD03`\n- 🖥️ Platform: Linux\n- 📅 Date: May 17, 2026\n\nEverything is working as expected! The Fabro workflow engine is **up and running**. 🚀",
+              "last_stage": "greet",
+              "last_response": "# Hello! 👋\n\nI'm **Claude**, an AI coding assistant made by Anthropic!\n\nThis is a test of the **Fabro workflow engine** — a system designed to orchestrate AI agents for software engineering tasks."
+            },
+            "notes": "Stage completed: greet",
+            "usage": {
+              "input": {
+                "usage": {
+                  "model": {
+                    "provider": "anthropic",
+                    "model_id": "claude-sonnet-4-6"
+                  },
+                  "tokens": {
+                    "input_tokens": 357,
+                    "output_tokens": 325,
+                    "reasoning_tokens": 0,
+                    "cache_read_tokens": 0,
+                    "cache_write_tokens": 2516
+                  }
+                },
+                "facts": {
+                  "provider": "anthropic",
+                  "cache_write_5m_tokens": 2516,
+                  "cache_write_1h_tokens": 0
+                }
+              },
+              "total_usd_micros": 15381
+            }
+          },
+          "start": {
+            "status": "succeeded",
+            "usage": null
+          }
+        },
+        "next_node_id": "exit",
+        "git_commit_sha": "a6ce47db4ac57a4ee0af67b5eb780c288a1356e4",
+        "node_visits": {
+          "greet": 1,
+          "start": 1
+        }
+      }
     ]
   ],
-  "conclusion": null,
+  "conclusion": {
+    "timestamp": "2026-05-17T16:19:15.284851937Z",
+    "status": "succeeded",
+    "duration_ms": 9283,
+    "final_git_commit_sha": "a6ce47db4ac57a4ee0af67b5eb780c288a1356e4",
+    "stages": [
+      {
+        "stage_id": "start",
+        "stage_label": "start",
+        "duration_ms": 0,
+        "retries": 0
+      },
+      {
+        "stage_id": "greet",
+        "stage_label": "greet",
+        "duration_ms": 5740,
+        "billing_usd_micros": 15381,
+        "retries": 0
+      }
+    ],
+    "billing": {
+      "input_tokens": 357,
+      "output_tokens": 325,
+      "total_tokens": 3198,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 2516,
+      "total_usd_micros": 15381
+    },
+    "total_retries": 0
+  },
   "retro": null,
   "retro_prompt": null,
   "retro_response": null,
@@ -316,6 +422,11 @@
     "working_directory": "/home/uawg/.fabro/storage/scratch/20260517-01KRVBQV0BE3DE5D6CPFM1AD03/worktree"
   },
   "final_patch": null,
+  "diff_summary": {
+    "files_changed": 0,
+    "additions": 0,
+    "deletions": 0
+  },
   "pull_request": null,
   "superseded_by": null,
   "pending_interviews": {},
@@ -324,7 +435,12 @@
       "first_event_seq": 17,
       "prompt": null,
       "response": null,
-      "completion": null,
+      "completion": {
+        "outcome": "succeeded",
+        "notes": "Stage completed: greet",
+        "failure_reason": null,
+        "timestamp": "2026-05-17T16:19:12.974348927Z"
+      },
       "provider_used": {
         "mode": "agent",
         "provider": "anthropic",
@@ -336,7 +452,28 @@
       "parallel_results": null,
       "output": null,
       "started_at": "2026-05-17T16:19:07.233519507Z",
-      "state": "running"
+      "duration_ms": 5740,
+      "state": "succeeded"
+    },
+    "exit@1": {
+      "first_event_seq": 34,
+      "prompt": null,
+      "response": null,
+      "completion": {
+        "outcome": "succeeded",
+        "notes": null,
+        "failure_reason": null,
+        "timestamp": "2026-05-17T16:19:15.268579009Z"
+      },
+      "provider_used": null,
+      "diff": null,
+      "script_invocation": null,
+      "script_timing": null,
+      "parallel_results": null,
+      "output": null,
+      "started_at": "2026-05-17T16:19:15.268548873Z",
+      "duration_ms": 0,
+      "state": "succeeded"
     },
     "start@1": {
       "first_event_seq": 13,
